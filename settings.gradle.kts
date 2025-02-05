@@ -1,7 +1,12 @@
 pluginManagement {
     repositories {
-        maven(url="https://jitpack.io")
-        google()
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -9,18 +14,11 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        maven(url="https://jitpack.io")
         google()
         mavenCentral()
-        gradlePluginPortal()
     }
-
 }
 
-
-rootProject.name = "StockPortfolio"
+rootProject.name = "StockSample"
 include(":app")
-include(":core:network")
-include(":core:data")
-include(":core:database")
-include(":core:datastore")
+ 

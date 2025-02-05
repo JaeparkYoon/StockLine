@@ -1,54 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
-
-    <color name="color_background_fbfbfb">#fbfbfb</color>
-
-    <color name="lite_blue">#4E78A0</color>
-    <color name="grey">#FF909090</color>
-    <color name="orange">#E47833</color>
-    <color name="green">#23cf34</color>
-    <color name="red">#FF0000</color>
-    <color name="blue">#007dd6</color>
-
-    <color name="color_app_icon_orange">#FFA500</color>
-    <color name="color_app_icon_yellow">#FFF200</color>
-    <color name="color_app_icon_bold_green">#59590D</color>
-    <color name="color_app_icon_green">#32590D</color>
-    <color name="color_main_background">#E2EdC5</color>
-
-    <color name="color_000000">#000000</color>
-    <color name="color_222222">#222222</color>
-    <color name="color_666666">#666666</color>
-    <color name="color_777777">#777777</color>
-    <color name="color_888888">#888888</color>
-    <color name="color_999999">#999999</color>
-    <color name="color_aaaaaa">#aaaaaa</color>
-    <color name="color_bbbbbb">#bbbbbb</color>
-    <color name="color_cccccc">#cccccc</color>
-    <color name="color_dddddd">#dddddd</color>
-
-    <color name="color_ffffff">#FFFFFF</color>
-    <color name="color_f1f1f1">#f1f1f1</color>
-    <color name="color_line_1a000000">#1a000000</color>
-    <color name="color_e52b4e">#e52b4e</color>
-    <color name="color_4876c7">#4876c7</color>
-    <color name="color_b5b5b6">#b5b5b6</color>
-
-    <color name="color_80000000">#80000000</color>
-    <color name="color_4D000000">#4D000000</color>
-
-    <color name="color_cd4632">#cd4632</color>
-    <color name="color_skeleton">#a2878787</color>
-
-    <color name="color_1a000000">#1a000000</color>
-    <color name="color_00000000">#00000000</color>
-    <color name="color_4dffffff">#4dffffff</color>
-    <color name="color_5737d6">#5737d6</color>
-    <color name="color_c8c8ca">#c8c8ca</color>
-    <color name="color_acaac4">#acaac4</color>
-
-    <color name="color_transparent">#00000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>
