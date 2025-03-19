@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "StockSample"
 include(":app")
- 
+include(":core:designsystem")
