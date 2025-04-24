@@ -1,4 +1,4 @@
-package jpyoon.example.stocksample
+package jpyoon.example.stockLine
 
 import org.junit.Test
 

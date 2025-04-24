@@ -1,4 +1,4 @@
-package jpyoon.example.stocksample
+package jpyoon.example.stockLine
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("jpyoon.example.stocksample", appContext.packageName)
+        assertEquals("jpyoon.example.stockline", appContext.packageName)
     }
 }

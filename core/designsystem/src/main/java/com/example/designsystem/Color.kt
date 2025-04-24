@@ -1,4 +1,4 @@
-package jpyoon.example.stocksample.ui.theme
+package com.example.designsystem
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,4 +1,4 @@
-package jpyoon.example.designsystem
+package com.example.designsystem
 
 import org.junit.Test
 

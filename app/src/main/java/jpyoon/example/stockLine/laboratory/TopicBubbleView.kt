@@ -1,4 +1,4 @@
-package jpyoon.example.stocksample.laboratory
+package jpyoon.example.stockLine.laboratory
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.tween

@@ -3,41 +3,33 @@ plugins {
     alias(libs.plugins.kotlin.android)
 }
 
+apply(from = project.rootProject.file("gradle-scripts/base.gradle"))
+apply(from = project.rootProject.file("gradle-scripts/compose.gradle"))
+
 android {
-    namespace = "jpyoon.example.designsystem"
-    compileSdk = 35
+    namespace = "com.example.designsystem"
 
     defaultConfig {
-        minSdk = 24
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles("consumer-rules.pro")
+    }
+
+    compileOptions {
+        isCoreLibraryDesugaringEnabled = true
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+
         }
-    }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-    kotlinOptions {
-        jvmTarget = "11"
     }
 }
 
 dependencies {
-
+    coreLibraryDesugaring(libs.desugar.jdk.libs)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 }
