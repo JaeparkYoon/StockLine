@@ -12,10 +12,6 @@ android {
 
     }
 
-    compileOptions {
-        isCoreLibraryDesugaringEnabled = true
-    }
-
     buildTypes {
         release {
 

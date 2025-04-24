@@ -22,9 +22,6 @@ android {
         }
     }
 
-    compileOptions {
-        isCoreLibraryDesugaringEnabled = true
-    }
     buildFeatures {
         compose = true
     }
