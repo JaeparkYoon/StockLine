@@ -1,4 +1,4 @@
-package jpyoon.example.stockLine
+package jpyoon.example.stockline
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.example.designsystem.StockLineTheme
-import jpyoon.example.stockLine.laboratory.BubbleTopicContent
+import jpyoon.example.stockline.laboratory.BubbleTopicContent
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package jpyoon.example.stockLine.start
+package jpyoon.example.stockline.start
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

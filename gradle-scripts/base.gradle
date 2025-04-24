@@ -1,3 +1,5 @@
+apply plugin: libs.plugins.kotlin.android.get().pluginId
+
 android {
     compileSdkVersion Integer.parseInt(project.compileSdk)
 
